@@ -1,0 +1,32 @@
+.wrapper
+{
+    display: grid;
+    justify-items: center;
+}
+li
+{
+    display: inline;
+    padding-right: 10px;
+}
+.buttons
+{
+    padding-top:20px;
+}
+.secondwrapper
+{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-row-gap: 1em;
+    grid-column-gap: 50px;
+    grid-auto-rows: 100px;
+
+}
+.secondwrapper > div:nth-child(odd)
+{
+   background: #ffc107;
+}
+.secondwrapper > div:nth-child(even)
+{
+   background: #28a745;
+}
+

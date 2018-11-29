@@ -1,0 +1,15 @@
+.firstwrapper
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-auto-rows: 200px;
+}
+.firstwrapper > div:nth-child(odd)
+{
+    background: #e83e8c;
+}
+firstwrapper > div:nth-child(even)
+{
+    background: #dc3545;
+}
